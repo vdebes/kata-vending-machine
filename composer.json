@@ -1,0 +1,36 @@
+{
+    "name": "vdebes/kata-vending-machine",
+    "description": "The Vending Machine kata in PHP",
+    "type": "project",
+    "license": "GPL-3.0-or-later",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "vdebes",
+            "email": "vdebes@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "vdebes\\vendingMachine\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "vendingMachine\\tests\\": "tests"
+        }
+    },
+    "require": {
+        "php": "^7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.4",
+        "phpstan/phpstan": "^0.12",
+        "phpstan/phpstan-phpunit": "^0.12.6",
+        "squizlabs/php_codesniffer": "^3.5",
+        "nunomaduro/phpinsights": "^1.14",
+        "phploc/phploc": "^5.0",
+        "mockery/mockery": "^1.4"
+    }
+}
