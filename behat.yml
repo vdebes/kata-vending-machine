@@ -1,0 +1,8 @@
+default:
+  autoload:
+    '': %paths.base%/test/behavior
+  suites:
+    foo:
+      paths: [ '%paths.base%/tests/behavior' ]
+      contexts:
+        - 'tests\behavior\Context\FooContext'
