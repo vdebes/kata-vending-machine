@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace vdebes\vendingMachine;
+namespace vendingMachine;
 
 class Foo
 {

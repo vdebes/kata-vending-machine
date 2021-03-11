@@ -16,6 +16,11 @@ unit: ## Runs unit tests
 	$(call printSection,PHP UNIT)
 	vendor/bin/phpunit tests
 
+.PHONY: spec
+spec: ## Runs specification tests
+	$(call printSection,PHP SPEC)
+	vendor/bin/phpspec run
+
 .PHONY: static
 static: ## Runs static analysis
 	$(call printSection,PHP STAN ANALYSIS)

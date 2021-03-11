@@ -1,10 +1,10 @@
 <?php
 
-namespace vendingMachine\unit\tests;
+namespace tests\unit;
 
 use Mockery\Adapter\Phpunit\MockeryPHPUnitIntegration;
 use PHPUnit\Framework\TestCase;
-use vdebes\vendingMachine\Foo;
+use vendingMachine\Foo;
 
 class FooTest extends TestCase
 {
